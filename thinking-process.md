@@ -26,3 +26,12 @@ md:py-8 และ md:pl-6 เพื่อเพิ่ม padding เฉพาะ
 **div วางของฝั่งซ้าย** ใช้ md:w-3/5 เพื่อให้บน desktop รูปภาพจะใช้พื้นที่ 60% ของ section ทั้งหมด บน mobile กินเต็ม 100% อัตโนมัติ (เพราะไม่ได้ใส่ md:)
 
 **div วางของฝั่งขวา** md:content-center เพื่อไว้สำหรับจัด content ให้อยู่กึ่งกลางแนวตั้งเฉพาะ desktop และ md:pl-6 เอาไว้เพื่อเพิ่ม padding ซ้ายเฉพาะ desktop
+
+# Section info
+แบ่งเป็นแบบ desktop และสำหรับหน้าจอโทรศัพท์เหมือนเดิม โดยใช้ hidden md:flex กับ md:hidden
+desk-info แบ่ง layout เป็นสองฝั่งด้วย justify-between
+
+div ฝั่งซ้าย w-3/5 สำหรับรูปใหญ่ + หัวข้อ + paragraph
+div ฝั่งขวา w-2/5 สำหรับcard 3 อัน เรียงแนวตั้งด้วย flex-col space-y-4 แต่ละ card ใช้ flex items-center จัดรูปซ้าย text ขวา รูปกว้าง w-[35%]
+
+mobile-info ไม่มีรูปใหญ่ฝั่งซ้ายแล้ว แสดงแค่ card 3 อันเรียงแนวตั้ง 
