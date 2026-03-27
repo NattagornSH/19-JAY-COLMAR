@@ -35,3 +35,10 @@ div ฝั่งซ้าย w-3/5 สำหรับรูปใหญ่ + ห
 div ฝั่งขวา w-2/5 สำหรับcard 3 อัน เรียงแนวตั้งด้วย flex-col space-y-4 แต่ละ card ใช้ flex items-center จัดรูปซ้าย text ขวา รูปกว้าง w-[35%]
 
 mobile-info ไม่มีรูปใหญ่ฝั่งซ้ายแล้ว แสดงแค่ card 3 อันเรียงแนวตั้ง 
+
+# Section desk-learn / mobile-learn
+แบ่งเป็นแบบ desktop และ mobile โดยใช้ md:flex hidden กับ md:hidden
+
+desk-learn ใช้ grid md:grid-cols-3 gap-4 จัด card 6 อันเป็น 3 คอลัมน์ แต่ละ card มีรูป + text ด้านล่าง ใช้ shadow-lg rounded-lg ทำให้ดูเป็น card
+
+mobile-learn ตัดรูปออกทั้งหมด เหลือแค่ชื่อ course เรียงแนวตั้ง ใช้ bg-gray-300 shadow-md แทน card เต็มรูปแบบ
