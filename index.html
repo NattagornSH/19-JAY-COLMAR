@@ -1,13 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    <h1 class="text-red-500 font-bold">Hello World!</h1>
-    
-</body>
+  </head>
+  <body>
+    <section id="desk-nav" class="hidden md:flex justify-between px-6 h-16">
+      <div class="flex items-center">
+        <img
+          src="/capstone_colmar_assets/images/ic-logo.svg"
+          alt="logo colmar"
+          class="w-10 h-10"
+        />
+        <p class="text-3xl">COLMAR<span class="text-gray-500">ACADEMY</span></p>
+      </div>
+      <nav class="flex items-center">
+        <ul class="flex list-none">
+          <li class="ml-4">
+            <a href="#">On Campus</a>
+          </li>
+          <li class="ml-4">
+            <a href="#">Online</a>
+          </li>
+          <li class="ml-4">
+            <a href="#">Our Companies</a>
+          </li>
+          <li class="ml-6">
+            <a href="#">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section
+      id="mobile-nav"
+      class="flex justify-between h-16 items-center px-6 md:hidden"
+    >
+      <a href="#"><img src="capstone_colmar_assets/images/ic-logo.svg" /></a>
+      <a href="#"
+        ><img src="capstone_colmar_assets/images/ic-on-campus.svg"
+      /></a>
+      <a href="#"><img src="capstone_colmar_assets/images/ic-online.svg" /></a>
+      <a href="#"><img src="capstone_colmar_assets/images/ic-login.svg" /></a>
+    </section>
+  </body>
 </html>
