@@ -49,3 +49,8 @@ mobile-learn ตัดรูปออกทั้งหมด เหลือแ
 div ฝั่งขวา w-2/5 → card 2 อัน เรียงแนวตั้งด้วย flex-col space-y-6 แต่ละ card ใช้ bg-gray-300 p-4 และจัดรูปซ้าย text ขวาเหมือน desk-info
 
 mobile-thesis ให้มีเหลือไว้แค่หัวข้อ thesis + video เท่านั้น
+
+# Section desk-footer / mobile-footer
+desk-footer ใช้ justify-between จัด text สองฝั่ง ซ้าย copyright ขวา Terms Privacy
+
+mobile-footer มีแค่ copyright จัดให้อยู่กึ่งกลางด้วย justify-center
